@@ -1,57 +1,81 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<meta charset="UTF-8">
-<title>Dhruti Mistri | Android Developer</title>
-<link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dhruti Mistri | Android Developer</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
 <header>
-<h1>Dhruti Mistri</h1>
-<p>Android Developer | Kotlin | Jetpack Compose</p>
+  <h1>Dhruti Mistri</h1>
+  <p>Android Developer | Kotlin | Jetpack Compose</p>
+  <button onclick="scrollToSection('projects')">View Projects</button>
 </header>
 
+<nav>
+  <ul>
+    <li><a href="#about">About</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
+
 <section id="about">
-<h2>About Me</h2>
-<p>
-Android developer with 7+ years of experience building scalable
-mobile applications using Kotlin and Java.
-</p>
+  <h2>About Me</h2>
+  <p>
+    Android developer with 7+ years of experience building scalable
+    mobile applications using Kotlin and Java. Currently pursuing a
+    Master's degree in the United States.
+  </p>
 </section>
 
 <section id="skills">
-<h2>Skills</h2>
-<ul>
-<li>Kotlin</li>
-<li>Java</li>
-<li>Jetpack Compose</li>
-<li>Android SDK</li>
-<li>REST APIs</li>
-</ul>
+  <h2>Skills</h2>
+  <div class="skills-grid">
+    <span>Kotlin</span>
+    <span>Java</span>
+    <span>Jetpack Compose</span>
+    <span>Android SDK</span>
+    <span>REST APIs</span>
+    <span>Firebase</span>
+  </div>
 </section>
 
 <section id="projects">
-<h2>Projects</h2>
+  <h2>Projects</h2>
 
-<div class="project">
-<h3>Movie App</h3>
-<p>Jetpack Compose app using TMDB API.</p>
-</div>
+  <div class="project-card">
+    <h3>Movie App</h3>
+    <p>Jetpack Compose app using REST API with MVVM architecture.</p>
+  </div>
 
-<div class="project">
-<h3>Chat App</h3>
-<p>Real-time messaging using Firebase.</p>
-</div>
+  <div class="project-card">
+    <h3>Chat App</h3>
+    <p>Real-time messaging app using Firebase.</p>
+  </div>
+
+  <div class="project-card">
+    <h3>Expense Tracker</h3>
+    <p>Offline-first app using Room Database.</p>
+  </div>
 
 </section>
 
 <section id="contact">
-<h2>Contact</h2>
-<p>Email: dhrutimistry.dm8@email.com</p>
-<p>GitHub: github.com/dhrutimistri</p>
+  <h2>Contact</h2>
+  <p>Email: dhrutimistry.dm8@email.com</p>
+  <p>GitHub: github.com/dhrutimistri</p>
+  <p>LinkedIn: linkedin.com/in/dhrutimistri</p>
 </section>
 
+<footer>
+  <p>© 2026 Dhruti Mistri</p>
+</footer>
+
+<script src="script.js"></script>
 </body>
 </html>
