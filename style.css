@@ -1,1 +1,91 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #0f172a;
+  color: #e2e8f0;
+}
 
+/* Header */
+header {
+  text-align: center;
+  padding: 60px 20px;
+  background: linear-gradient(to right, #1e293b, #0f172a);
+}
+
+header h1 {
+  font-size: 2.5rem;
+}
+
+header button {
+  margin-top: 15px;
+  padding: 10px 20px;
+  border: none;
+  background: #38bdf8;
+  color: black;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+/* Navbar */
+nav {
+  background: #020617;
+  padding: 10px;
+  position: sticky;
+  top: 0;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+}
+
+nav li {
+  margin: 0 15px;
+}
+
+nav a {
+  color: #e2e8f0;
+  text-decoration: none;
+}
+
+/* Sections */
+section {
+  padding: 50px 20px;
+  max-width: 900px;
+  margin: auto;
+}
+
+/* Skills */
+.skills-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.skills-grid span {
+  background: #1e293b;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+/* Projects */
+.project-card {
+  background: #1e293b;
+  padding: 20px;
+  margin-top: 15px;
+  border-radius: 8px;
+  transition: transform 0.2s;
+}
+
+.project-card:hover {
+  transform: scale(1.03);
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #020617;
+}
