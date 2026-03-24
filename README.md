@@ -1,22 +1,29 @@
 # Hi, I'm Dhruti 👋
 
-Android Developer with 7+ years experience building
-scalable mobile applications.
+Senior Android Developer | Kotlin | Jetpack Compose
+
+Android engineer with 7+ years of experience building scalable
+mobile applications and modern Android architecture.
 
 ## Tech Stack
 
 - Kotlin
 - Java
 - Jetpack Compose
-- MVVM
-- Clean Architecture
+- MVVM / Clean Architecture
+- Retrofit
+- Coroutines
 - Firebase
 
 ## Featured Projects
 
-- Movie App (Compose + Retrofit)
-- Chat App (Firebase)
-- Kotlin Multiplatform Demo
+📱 Movie App (Jetpack Compose + TMDB API)
+
+💬 Firebase Chat App (Real-time messaging)
+
+🌐 Kotlin Multiplatform Demo
+
+📊 Android Analytics Dashboard
 
 ## Connect
 
